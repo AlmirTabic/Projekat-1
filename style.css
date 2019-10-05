@@ -1,0 +1,302 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.top {
+	position: relative;
+	width: 100%;
+	height: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(background.jpg);
+	background-size: cover;
+	text-align: center;
+	background-position: center;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0px;
+}
+
+.menu li {
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	color:white;
+	text-align: center;
+	padding: 20px 25px;
+	text-decoration: none;
+	line-height:10px;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.menu a:hover {
+  background-color: #FA008D;
+}
+
+.bigtext {
+	position: absolute;
+	font-size: 95px;
+	font-weight: 300;
+	word-spacing: 1px;
+	color: white;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+.bigtext p {
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.thumbnails {
+	position: relative;
+	width: 1024px;
+	height: 580px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+
+.thumbnails .slika {
+	cursor: pointer;
+}
+
+.selection {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding: 15px;
+	color: #B8B8B8;
+	margin-top: 160px;
+}
+
+.gif {
+	margin-top: 40px;
+	width: 480px;
+	height: 480px;
+}
+
+#archgif {
+	width: 480px;
+	height: 480px;
+}
+
+
+.table {
+	height: 550px;
+	width: 630px;
+	position: absolute;	
+	top: 0px;
+	right: 0px;
+	text-align: center;
+    font-size: 15px;
+    color:#8F8A8A;
+    letter-spacing: 1px;
+}
+
+.slika {
+	width: 300px;
+    height:249px;
+}
+
+.texttable {
+	width: 300px;
+    height: 30px;
+}
+
+.space {
+	width: 30px;
+	height: 249px;
+}
+
+.spacetext {
+	width: 30px;
+	height: 30px;
+}
+
+.pink {
+	width: 1024px;
+	height: 300px;
+	margin-top: 200px;
+	background-image: url(Pink-background.jpg);
+	color: white;
+	font-size: 14px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.pink p {
+	font-weight: 300;
+}
+
+.working {
+	width: 1024px;
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.text {
+	width: 550px;
+	height: 350px;
+	text-align: right;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: .5px;
+}
+
+.workphoto {
+	width: 250px;
+	height: 375px;
+	margin-top: 35px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.dots {
+	width: 1024px;
+	height: 300px;
+	margin-top: 300px;
+	background-image: url(dots.png);
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.skills {
+	width: 1024px;
+	height: 370px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.lakephoto {
+	width: 500px;
+	height: 348px;
+	margin-top: 25px;
+	margin-left: 25px;
+
+}
+
+.lakephoto img {
+	width: 500px;
+	height: auto;
+	margin-top: 10px;
+	margin-left: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5) 
+}
+
+.skillstext {
+	width: 460px;
+	height: 270px;
+	word-spacing: 8px;
+	font-size: 14px;
+	color:#0F0F0F;
+	font-weight: 400;
+	
+}
+
+.skillstext h1 {
+	color: #8F8A8A;
+	margin-top: 25px;
+}
+
+.wraper {
+	position: relative;
+	height: 320px;
+	width: 100%;
+	margin-top: 300px;
+	margin-bottom: 0px;
+}
+
+#footer {
+	position: absolute;
+	height: 320px;
+	width: 100%;
+	background-image: url(FooterBcg.png);
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+}
+
+.bottom {
+	width: 1024px;
+	height: 320px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#contact {
+	width: 620px;
+	height: 220px;
+	color: lightgray;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin-top: 70px;
+}
+
+.GoogleMap {
+	opacity: 0.7;
+}
+
+.logo {
+	height: 30px;
+	width: 30px;
+	padding: 10px;
+	opacity: 0.5;
+}
+
+.Thumb-top {
+	position: relative;
+	width: 100%;
+	height: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(house.jpg);
+	background-size: cover;
+	text-align: center;
+	background-position: center;
+}
+
+.Thumb-text {
+	position: absolute;
+	font-size: 95px;
+	font-weight: 300;
+	word-spacing: 1px;
+	color: #FA008D;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+.Thumb-text p {
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #FA008D;
+}
+
+.Thumb-text a {
+	text-decoration: none;
+}
+
+
